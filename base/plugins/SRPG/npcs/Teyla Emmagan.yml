@@ -1,0 +1,117 @@
+npc:
+  name: 'Teyla Emmagan'
+  version: '1.0.0'
+  title: 'NONE'
+  template: 'NONE'
+  textureType: 'RESOURCE'
+  textureUri: 'customnpcs:textures/entity/stargate/Athosian/athosian_teyla_emmagan.png'
+  capeTexture: 'NONE'
+  overlayTexture: 'NONE'
+  faction: 'Atlantis Expedition'
+  rotationBehavior: 'RotateBody'
+  rotation: 240
+  visible: 'YES'
+  modelType: 'NONE'
+  gender: 'FEMALE'
+  size: 5
+  showBossBar: 'NO'
+  showName: 'NO'
+  avoidsWater: 'YES'
+  doorInteraction: 'NONE'
+  burnsInSun: 'NO'
+  avoidsSun: 'NO'
+  canDrown: 'NO'
+  canSprint: 'NO'
+  canSwim: 'NO'
+  livingAnimation: 'NO'
+  ignoreCobwebs: 'NO'
+  interactWithOtherNPCs: 'YES'
+  sheltersFrom: 'NONE'
+  movingAnimation: 'NORMAL'
+  attackInvisible: 'NO'
+  defendFactionMembers: 'YES'
+  attackHostileFactions: 'YES'
+  mustSeeTarget: 'YES'
+  attackedResponse: 'RETALIATE'
+  tacticalDistance: 15
+  tacticalBehavior: 'NONE'
+  aggroDistance: 48
+  rangedBehavior: 'ALWAYS'
+  aimWhileShooting: 'YES'
+  fireIndirectly: 'NONE'
+  canLeap: 'NO'
+  maxHealth: 500
+  passiveHealthRegen: 'MEDIUM'
+  combatHealthRegen: 'MEDIUM'
+  projectileResistance: 'MEDIUM'
+  meleeResistance: 'MEDIUM'
+  explosionResistance: 'NONE'
+  knockbackResistance: 'MEDIUM'
+  immuneToPotions: 'NO'
+  immuneToFire: 'NO'
+  meleeRange: 'LOWEST'
+  meleeDamage: 'LOWEST'
+  meleeKnockback: 'LOW'
+  rangedRange: 'MEDIUM'
+  rangedDamage: 'MEDIUM'
+  rangedKnockback: 'LOW'
+  rangedWeaponBehavior: 'MACHINEGUN'
+  projectileAppearance: 'BULLET'
+  projectileSize: 'TINY'
+  projectileExplosionType: 'NONE'
+  projectileTrail: 'NONE'
+  projectileSound: 'NONE'
+  respawnSetting: 'ALWAYS'
+  respawnDelay: '1HR'
+  respawnsAtSpawn: 'YES'
+  hideDeadBody: 'YES'
+  factionImportance: 'MEDIUM'
+  xpReward: '0'
+  movementSpeed: 'NORMAL'
+  movementType: 'STANDING'
+  wanderingDistance: '0'
+  stopOnInteract: 'YES'
+  pauseWhenFollowingPath: 'NO'
+  returnsToStart: 'YES'
+  sayRandomLines: 'NO'
+  worldLines:
+  - ''
+  repeatableUnavailableLines:
+  - ''
+  attackLines:
+  - ''
+  interactLines:
+  - 'Altantis has been our best hope in the fight against the Wraith'
+  - 'We are truly grateful for your presence here in the city'
+  - 'Rodney is always busy over by ops. I think he likes to feel, shall we say, important'
+  killLines:
+  - ''
+  killedLines:
+  - ''
+  components:
+    SpawnLocation-a:
+      type: 'setting'
+      data:
+        icon-key: ''
+        name: 'Teyla Emmagan'
+        title: 'NONE'
+        spawnX: -287
+        spawnY: 182
+        spawnZ: -1068
+        spawnDimension: 'Lantea'
+        rotationBehavior: 'NONE'
+        rotation: 0
+        gender: 'FEMALE'
+        movementType: 'STANDING'
+        modelType: 'NONE'
+        size: 5
+        textureType: 'NONE'
+        textureUri: 'NONE'
+        faction: 'Atlantis Expedition'
+        movingAnimation: 'NONE'
+    EquippedCombatMainHandSlot-a:
+      type: 'setting'
+      data:
+        icon-key: ''
+        itemName: 'flansmod:p90'
+        damageValue: '0'
