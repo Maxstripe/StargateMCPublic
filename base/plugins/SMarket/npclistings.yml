@@ -17536,26 +17536,28 @@ items:
     dimensions: []
   '1593':
     materialName: WARPDRIVE_BLOCKTRANSPORTBEACON
-    amount: 0
-    chance: 0.0
+    amount: 8
+    chance: 50.0
     damage: 0
-    maxListingTime: 0
-    minListingTime: 0
-    maxPrice: 0
-    minPrice: 0
+    maxListingTime: 60
+    minListingTime: 1
+    maxPrice: 3000
+    minPrice: 2000
     sellers: []
-    dimensions: []
+    dimensions: 
+        - ALL
   '1594':
     materialName: WARPDRIVE_BLOCKSHIPCONTROLLER
-    amount: 0
-    chance: 0.0
+    amount: 1
+    chance: 50.0
     damage: 0
-    maxListingTime: 0
-    minListingTime: 0
-    maxPrice: 0
-    minPrice: 0
+    maxListingTime: 60
+    minListingTime: 5
+    maxPrice: 10000
+    minPrice: 5000
     sellers: []
-    dimensions: []
+    dimensions:
+        - ALL
   '1595':
     materialName: WARPDRIVE_BLOCKENERGYBANK
     amount: 0
@@ -17591,15 +17593,16 @@ items:
     dimensions: []
   '1598':
     materialName: WARPDRIVE_BLOCKSHIPSCANNER
-    amount: 0
-    chance: 0.0
+    amount: 1
+    chance: 50.0
     damage: 0
-    maxListingTime: 0
-    minListingTime: 0
-    maxPrice: 0
-    minPrice: 0
+    maxListingTime: 60
+    minListingTime: 1
+    maxPrice: 5000
+    minPrice: 3000
     sellers: []
-    dimensions: []
+    dimensions:
+        - ALL
   '1599':
     materialName: WARPDRIVE_BLOCKMONITOR
     amount: 0
@@ -17646,15 +17649,16 @@ items:
     dimensions: []
   '1603':
     materialName: WARPDRIVE_BLOCKTRANSPORTER
-    amount: 0
-    chance: 0.0
+    amount: 1
+    chance: 50.0
     damage: 0
-    maxListingTime: 0
-    minListingTime: 0
-    maxPrice: 0
-    minPrice: 0
+    maxListingTime: 60
+    minListingTime: 1
+    maxPrice: 5000
+    minPrice: 2000
     sellers: []
-    dimensions: []
+    dimensions:
+        - ALL
   '1604':
     materialName: WARPDRIVE_BLOCKLASERCAMERA
     amount: 0
@@ -21123,37 +21127,40 @@ items:
     dimensions: []
   '1919':
     materialName: APPLIEDENERGISTICS2_ITEMITEMBASICSTORAGECELL1K
-    amount: 0
-    chance: 0.0
+    amount: 1
+    chance: 50.0
     damage: 0
-    maxListingTime: 0
-    minListingTime: 0
-    maxPrice: 0
-    minPrice: 0
+    maxListingTime: 60
+    minListingTime: 1
+    maxPrice: 6000
+    minPrice: 2000
     sellers: []
-    dimensions: []
+    dimensions:
+        - ALL
   '1920':
     materialName: APPLIEDENERGISTICS2_ITEMITEMBASICSTORAGECELL4K
-    amount: 0
-    chance: 0.0
+    amount: 1
+    chance: 50.0
     damage: 0
-    maxListingTime: 0
-    minListingTime: 0
-    maxPrice: 0
-    minPrice: 0
+    maxListingTime: 60
+    minListingTime: 1
+    maxPrice: 8000
+    minPrice: 6000
     sellers: []
-    dimensions: []
+    dimensions:
+        - ALL
   '1921':
     materialName: APPLIEDENERGISTICS2_ITEMITEMBASICSTORAGECELL16K
-    amount: 0
-    chance: 0.0
+    amount: 1
+    chance: 50.0
     damage: 0
-    maxListingTime: 0
-    minListingTime: 0
-    maxPrice: 0
-    minPrice: 0
+    maxListingTime: 60
+    minListingTime: 1
+    maxPrice: 10000
+    minPrice: 8000
     sellers: []
-    dimensions: []
+    dimensions:
+        - ALL
   '1922':
     materialName: APPLIEDENERGISTICS2_ITEMITEMBASICSTORAGECELL64K
     amount: 0
